@@ -1,0 +1,42 @@
+{
+  "name": "react-telegram-embed",
+  "version": "0.0.9",
+  "description": "Simple telegram embed",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cudr/react-telegram-embed.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "telegram",
+    "embed"
+  ],
+  "author": "cudr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cudr/react-telegram-embed/issues"
+  },
+  "homepage": "https://github.com/cudr/react-telegram-embed#readme",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
