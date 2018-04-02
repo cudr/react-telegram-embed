@@ -29,7 +29,8 @@ class TelegramEmbed extends Component {
 
   componentDidMount() {
     window.addEventListener('message', this.messageHandler)
-
+    this.messageHandler = this.messageHandler.bind(this);
+    
     this.iFrame.addEventListener('load', () => {
 
       this.checkFrame(this.state.id)
