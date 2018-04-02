@@ -124,7 +124,7 @@ var TelegramEmbed = function (_Component) {
       id: '',
       height: '80px'
     };
-
+    _this.messageHandler = _this.messageHandler.bind(_this);
     _this.urlObj = document.createElement('a');
 
     return _this;
