@@ -136,6 +136,7 @@ var TelegramEmbed = function (_Component) {
       var _this2 = this;
 
       window.addEventListener('message', this.messageHandler);
+      this.messageHandler = this.messageHandler.bind(this);
 
       this.iFrame.addEventListener('load', function () {
 
