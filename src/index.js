@@ -22,7 +22,7 @@ class TelegramEmbed extends Component {
       id: '',
       height: '80px'
     }
-
+    this.messageHandler = this.messageHandler.bind(this);
     this.urlObj = document.createElement('a')
 
   }
