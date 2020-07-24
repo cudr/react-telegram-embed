@@ -1,6 +1,6 @@
 {
   "name": "react-telegram-embed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple telegram embed",
   "main": "build/index.js",
   "scripts": {
